@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@200&family=Roboto:wght@300&display=swap');
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to left, rgb(118, 8, 8,0.4),rgb(118, 8, 8,0.9));
+}
+
+.navtext{
+    color: rgb(247, 218, 205);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.icon{
+    color: rgb(177, 137, 174);
+}
+.footer{
+    background-color: rgb(42, 41, 41);
+    text-align: center;
+    margin-bottom: 0;
+}
+.news{
+    display: flex;
+    flex-direction: row; 
+     flex-wrap: wrap; 
+     justify-content: center;
+} 
+.newNews{
+    margin: 0.25rem 0.5rem;
+} 

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>News2Day</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-fluid m-0 p-0 ">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-dark text-warning">
+            <div class="container-fluid">
+              <a class="navbar-brand text-warning" href="#general">News2Day</a>
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link  navtext text-warning" aria-current="page" href="#general" id="general">GENERAL</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link navtext" href="#business" id="business">BUSINESS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navtext" href="#technology" id="technology">TECHNOLOGY</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link navtext" href="#international" id="international">INTERNATIONAL</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link navtext" href="#sports" id="sports">SPORTS</a>
+                  </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" id="search-box" placeholder="Search news" aria-label="Search">
+                  <button class="btn btn-outline-success" type="button" id="search">Search</button>
+                </form>
+                <button>login in</button>
+              </div>
+            </div>
+          </nav>
+        <!-- News -->
+        <div class="news">  </div>
+        <!-- Footer -->
+        <div class="footer text-warning">
+        <h4> News2Day- by Tripti</h4>
+      </div>  
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>    
+</body>
+
+</html>
